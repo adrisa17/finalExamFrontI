@@ -1,0 +1,17 @@
+:root {
+    /* Primario*/
+    --primary-violet: #8B48BF;
+    --primary-blue: #3CDDF3;
+    /*Neutro*/
+    --neutral-darkbluegray: #1E1E26;
+    --neutral-darkblue: #232851;
+
+    /*Variante*/
+    --lightgray: rgb (249, 249, 249);
+
+    /* Fuentes*/
+
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+
+}
