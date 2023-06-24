@@ -16,25 +16,24 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/newFirst.css" />
     <link rel="stylesheet" href="./css/newLittle.css" />
+    <link rel="stylesheet" href="./css/players.css" />
     <title>Examen final</title>
   </head>
   <body>
-    <header>
-      <nav class="home">
-        <img class="home__image" src="./images/logo.svg" alt="logo" />
-        <label class="home__hamburger">
-          <img src="./images/icon-hamburger.svg" alt="menú hamburguesa"
-        /></label>
-        <menu class="home__menu">
-          <li><a href="">Sports</a></li>
-          <li><a href="">Products</a></li>
-          <li><a href="">About us</a></li>
-          <li><a href="">Trainning</a></li>
-          <li><a href="">Community</a></li>
-        </menu>
-        <a href="" class="home__contact button button--primary">Contact</a>
-      </nav>
-    </header>
+    <nav class="home">
+      <img class="home__image" src="./images/logo.svg" alt="logo" />
+      <label class="home__hamburger">
+        <img src="./images/icon-hamburger.svg" alt="menú hamburguesa"
+      /></label>
+      <menu class="home__menu">
+        <li><a href="">Sports</a></li>
+        <li><a href="">Products</a></li>
+        <li><a href="">About us</a></li>
+        <li><a href="">Trainning</a></li>
+        <li><a href="">Community</a></li>
+      </menu>
+      <a href="" class="home__contact button button--primary">Contact</a>
+    </nav>
     <main>
       <section class="main">
         <picture class="main__image">
@@ -88,49 +87,47 @@
       </section>
 
       <section class="players">
-        <div class="players--tittle">
-          <h2>Best of the month</h2>
-        </div>
-        <article class="players--image">
-          <img src="./images/avatar-sanyo.png" alt="imagen de sanyo" />
-          <h3 class="players--title">Sanyo</h3>
-          <p>
-            Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat
-            mauris, ut suscipit massa ipsum eu neque. Orci varius natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            /p>
-          </p>
-        </article>
-        <article>
-          <img src="./images/avatar-sanyo.png" alt="imagen de sanyo" />
-          <h3>Sanyo</h3>
-          <p>
-            Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat
-            mauris, ut suscipit massa ipsum eu neque. Orci varius natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            /p>
-          </p>
-        </article>
-        <article>
-          <img src="./images/avatar.lebron.png" alt="imagen de Lebron" />
-          <h3>Lebron</h3>
-          <p>
-            Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat
-            mauris, ut suscipit massa ipsum eu neque. Orci varius natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            /p>
-          </p>
-        </article>
-        <article>
-          <img src="./images/avatar-navarro.png" alt="imagen de Navarro" />
-          <h3>Navarro</h3>
-          <p>
-            Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat
-            mauris, ut suscipit massa ipsum eu neque. Orci varius natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            /p>
-          </p>
-        </article>
+        <h2>Best of the month</h2>
+        <section class="players__group">
+          <div class="players__only players--other">
+            <img src="./images/avatar-sanyo.png" alt="imagen de sanyo" />
+            <article>
+              <h3>Sanyo</h3>
+              <p>
+                Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat
+                mauris, ut suscipit massa ipsum eu neque. Orci varius natoque
+                penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus.
+              </p>
+            </article>
+          </div>
+          <div class="players__only">
+            <img src="./images/avatar.lebron.png" alt="imagen de Lebron" />
+            <article>
+              <h3>Lebron</h3>
+              <p>
+                Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat
+                mauris, ut suscipit massa ipsum eu neque. Orci varius natoque
+                penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus.
+              </p>
+            </article>
+          </div>
+
+          <div class="players__only players--other">
+            <img src="./images/avatar-navarro.png" alt="imagen de Navarro" />
+            <article>
+              <h3>Navarro</h3>
+              <p>
+                Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat
+                mauris, ut suscipit massa ipsum eu neque. Orci varius natoque
+                penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus.
+              </p>
+            </article>
+          </div>
+        </section>
+        <a href="" class="players__more button button--primary">More</a>
       </section>
       <article class="new-first">
         <h2>Get to know the best teams of the year</h2>

@@ -1,5 +1,5 @@
 .new-little {
-    margin: 65px 0 58px;
+    padding: 65px 0 58px;
 }
 
 .new-little__parts span {
@@ -35,6 +35,7 @@
         flex-wrap: wrap;
         background-color: #FAFAFA;
         justify-content: center;
+        padding-block: 40px;
 
 
     }
