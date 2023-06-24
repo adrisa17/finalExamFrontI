@@ -11,7 +11,11 @@
 
     /* Fuentes*/
 
-    font-family: 'Be Vietnam Pro', sans-serif;
+
+
+    /*Tamaño*/
+    --mobile: 480px;
+    --desktop: 1440px;
 
 
 }

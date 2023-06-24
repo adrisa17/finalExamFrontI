@@ -1,0 +1,44 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.home__hamburger {
+    cursor: pointer;
+}
+
+.home__menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.home__menu li {
+    padding: 0 20px;
+    text-align: center;
+    color: var(--neutral-darkblue);
+    font-size: 13px;
+}
+
+.home__image {
+    width: 107.684px;
+    height: 25px;
+}
+
+
+@media (max-width: 480px) {
+
+    .home__menu,
+    .home__contact {
+        display: none;
+    }
+}
+
+@media (min-width: 481px) {
+
+    .home__hamburger {
+        display: none;
+    }
+}
